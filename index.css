@@ -1,0 +1,29 @@
+
+#one{
+    background-color: violet;
+    transition-timing-function: linear;
+}
+#two{
+    background-color: purple;
+    transition-timing-function: ease-in;
+}
+#three{
+    background-color: lightblue;
+    transition-timing-function: ease-in;
+}
+#four{
+    background-color: blue;
+    transition-timing-function: ease-out;
+}
+#five{
+    background-color: blueviolet;
+    transition-timing-function: ease-in-out;
+}
+div{
+    width: 100px;
+    height: 100px;
+    transition: width 2s;
+}
+div:hover{
+    width: 300px;
+}
